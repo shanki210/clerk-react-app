@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f9;
+  background-color: #e0e7ff; /* Light blue background */
   color: #333;
 }
 
@@ -12,7 +12,7 @@ body {
 }
 
 .app-header {
-  background-color: #6200ea;
+  background-color: #1e3a8a; /* Dark blue header */
   color: white;
   padding: 20px;
   text-align: center;
@@ -43,15 +43,17 @@ nav {
 .hero-section h2 {
   font-size: 2rem;
   margin-bottom: 10px;
+  color: #1e40af; /* Medium blue */
 }
 
 .hero-section p {
   font-size: 1.2rem;
   margin-bottom: 20px;
+  color: #475569; /* Dark grey */
 }
 
 .cta-button {
-  background-color: #03dac5;
+  background-color: #0ea5e9; /* Bright blue button */
   color: white;
   padding: 10px 20px;
   border: none;
@@ -62,11 +64,11 @@ nav {
 }
 
 .cta-button:hover {
-  background-color: #018786;
+  background-color: #0284c7; /* Darker blue on hover */
 }
 
 .app-footer {
-  background-color: #6200ea;
+  background-color: #1e3a8a; /* Consistent with header */
   color: white;
   text-align: center;
   padding: 10px;
